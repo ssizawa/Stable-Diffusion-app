@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Stable Diffusion 画像ジェネレーター</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI画像ジェネレーター</h1>
+        <div class="input-section">
+            <textarea id="prompt" placeholder="画像生成のプロンプトを入力してください"></textarea>
+            <button id="generate-btn">画像を生成</button>
+        </div>
+        <div class="output-section">
+            <img id="generated-image" src="" alt="生成された画像">
+        </div>
+        <div id="loading" class="hidden">生成中...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
